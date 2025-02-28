@@ -1,0 +1,7 @@
+/* Same as previous version - no changes needed */
+body { font-family: Arial, sans-serif; background: #f0f8ff; margin: 0; padding: 20px; }
+.container { max-width: 800px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+.btn { background: #0073e6; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+.btn:hover { background: #005bb5; }
+input, select { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px; }
+.issues-container { margin: 20px 0; border: 1px solid #ddd; padding: 15px; border-radius: 5px; }

@@ -1,5 +1,5 @@
 const supabase = createClient(
-  'YOUR_SUPABASE_URL',
+  'https://tecenaxizjatwjgkgslt.supabase.co',
   'YOUR_SUPABASE_ANON_KEY'
 );
 

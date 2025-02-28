@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Report Issue - AquaTrack Pro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Report New Issue</h1>
+        <form id="reportForm">
+            <input type="text" id="locationName" placeholder="Location Name" required>
+            <input type="text" id="block" placeholder="Block" required>
+            <select id="issueType" required>
+                <option value="">Select Issue Type</option>
+                <option value="Meter Leakage">Meter Leakage</option>
+                <option value="Burst/Leakage">Burst/Leakage</option>
+                <option value="No Water">No Water</option>
+            </select>
+            <input type="file" id="photo" accept="image/*" required>
+            <input type="text" id="plumberName" placeholder="Assign to Plumber" required>
+            <div id="map" style="height: 300px; margin: 20px 0;"></div>
+            <button type="submit" class="btn">Submit Report</button>
+        </form>
+    </div>
+    <script src="../scripts/map.js"></script>
+    <script src="../scripts/database.js"></script>
+</body>
+</html>
